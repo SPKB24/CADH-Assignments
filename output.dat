@@ -1,0 +1,14 @@
+Done processing WhateverYouLike.cpp
+Total errors found: 0
+Done processing main.cpp
+Total errors found: 0
+Done processing PowerTeam.cpp
+Total errors found: 0
+WhateverYouLike.h:14:  #ifndef header guard has wrong style, please use: _HOME_SPAL_NETBEANSPROJECTS_CADH_ASSIGNNMENT1_WHATEVERYOULIKE_H_  [build/header_guard] [5]
+WhateverYouLike.h:27:  #endif line should be "#endif  // _HOME_SPAL_NETBEANSPROJECTS_CADH_ASSIGNNMENT1_WHATEVERYOULIKE_H_"  [build/header_guard] [5]
+Done processing WhateverYouLike.h
+Total errors found: 2
+PowerTeam.h:8:  #ifndef header guard has wrong style, please use: _HOME_SPAL_NETBEANSPROJECTS_CADH_ASSIGNNMENT1_POWERTEAM_H_  [build/header_guard] [5]
+PowerTeam.h:23:  #endif line should be "#endif  // _HOME_SPAL_NETBEANSPROJECTS_CADH_ASSIGNNMENT1_POWERTEAM_H_"  [build/header_guard] [5]
+Done processing PowerTeam.h
+Total errors found: 2
