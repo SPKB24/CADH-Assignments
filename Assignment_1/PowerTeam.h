@@ -13,11 +13,11 @@ class PowerTeam {
     PowerTeam();
     explicit PowerTeam(const double _double);
 
-    void setter(const double _double);
-    double getter();
+    void setVoltage(const double _double);
+    double getVoltage();
 
  private:
-    double m_VariableOfTypeDouble;
+    double level;
 };
 
 #endif  // POWERTEAM_H

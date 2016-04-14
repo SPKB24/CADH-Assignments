@@ -11,7 +11,8 @@
  * Default Constructor, does nothing right now.
  */
 PowerTeam::PowerTeam() {
-    // Do nothing?
+    // Set the voltage to 5 by default
+    this->setVoltage(5.0);
 }
 
 /**
@@ -19,21 +20,21 @@ PowerTeam::PowerTeam() {
  * @param _double Any variable of type <b>DOUBLE</b>
  */
 PowerTeam::PowerTeam(const double _double) {
-    this->setter(_double);
+    this->setVoltage(_double);
 }
 
 /**
  * Setter function to set the private double variable.
  * @param _double Any variable of type <b>DOUBLE</b>
  */
-void PowerTeam::setter(const double _double) {
-    this->m_VariableOfTypeDouble = _double;
+void PowerTeam::setVoltage(const double _double) {
+    this->level = _double;
 }
 
 /**
  * Getter function to get the private double variable.
  * @return the private double variable
  */
-double PowerTeam::getter() {
-    return this->m_VariableOfTypeDouble;
+double PowerTeam::getVoltage() {
+    return this->level;
 }
